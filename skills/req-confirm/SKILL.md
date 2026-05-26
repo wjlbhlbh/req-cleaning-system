@@ -1,6 +1,13 @@
 ---
 name: req-confirm
 description: 客户确认话术生成。将需求清洗结果转化为客户可理解的确认文案，候选需求做成选择题，待澄清问题转为业务语言选项。可处理需求清洗的输出或直接处理原始需求。
+license: MIT
+compatibility: 适用于所有AI编程工具。建议在 req-clean 之后使用，也可独立使用。
+metadata:
+  author: LaoLiu
+  version: "1.0"
+  type: communication
+  mode: workflow-step
 ---
 
 # 客户确认话术生成

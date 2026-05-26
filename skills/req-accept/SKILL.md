@@ -1,6 +1,13 @@
 ---
 name: req-accept
 description: 验收标准生成。根据已确认需求生成客户可理解、可实测的验收标准，排除非本次范围的内容，输出测试步骤建议。开发前和开发后均可使用。
+license: MIT
+compatibility: 适用于所有AI编程工具。在 req-analyze 之后使用，也可独立使用。
+metadata:
+  author: LaoLiu
+  version: "1.0"
+  type: verification
+  mode: workflow-step
 ---
 
 # 验收标准生成

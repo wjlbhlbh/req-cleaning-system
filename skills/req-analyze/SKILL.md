@@ -1,6 +1,13 @@
 ---
 name: req-analyze
 description: 开发前置影响分析。在客户确认需求后、正式开发前，结合项目代码全面分析影响范围，评估技术建议，检测与现有系统的冲突，输出开发任务拆分和风险提示。禁止直接修改代码。
+license: MIT
+compatibility: 需在项目代码目录中使用。需要代码读写权限进行扫描（只分析不修改）。
+metadata:
+  author: LaoLiu
+  version: "1.0"
+  type: analysis
+  mode: workflow-step
 ---
 
 # 开发前置影响分析

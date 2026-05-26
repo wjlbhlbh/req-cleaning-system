@@ -1,6 +1,13 @@
 ---
 name: req-clean
 description: 需求清洗与候选需求识别。从客户提供的原始内容（含AI生成的混乱文档）中提取真实业务需求，五分类输出：明确需求、候选需求、待澄清问题、技术建议参考、无效承诺。自动生成客户确认话术。
+license: MIT
+compatibility: 适用于所有AI编程工具（Claude Code、Codex、Cursor等）。需要提供客户原始需求内容。
+metadata:
+  author: LaoLiu
+  version: "1.0"
+  type: analysis
+  mode: workflow-step
 ---
 
 # 需求清洗与候选需求识别
